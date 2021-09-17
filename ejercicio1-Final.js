@@ -18,7 +18,7 @@ function solucion(a) {
       const currentElement = a[index];
 
       if (previousElement % 2 == currentElement % 2) {
-        a[index] = a.first
+        a[index] = a.first;
         changesCount++;
       }
     }
@@ -45,4 +45,4 @@ function validateNumbers(a) {
   return true;
 }
 
-solucion(A);
+solucion(B);
